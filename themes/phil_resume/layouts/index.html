@@ -1,11 +1,66 @@
-<!DOCTYPE html>
-<html>
-<body>
-  <p>Hugo says hello!</p>
-	{{ partial "resume_experience.html" . }}
-	{{ partial "resume_projects.html" . }}
-	{{ partial "resume_skills.html" . }}
-	{{ partial "footer.html" . }}
-</body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <title>Resume - {{ .Site.Data.resume.name }}</title>
+    <meta name="description" content="{{ .Site.Data.resume.name }}'s Resume">
+    <meta name="author" content="{{ .Site.Data.resume.name }}">
+    <script src="https://use.fontawesome.com/0c9137b413.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CLato" rel="stylesheet">
+		<link href="../static/css/resume.scss" rel="stylesheet" type="text/css" media="all">
+	</head>
+  <body>
+		<div class="top-right-ribbon"><a href="{{ .Site.Data.resume.pdf }}">PDF version</a></div>
+		<div class="site-wrap">
+			<div class="resume">
+				<div class="resume-page">
+					{{ partial "header.html" . }}
+					<div class="resume-body clearfix">
+						<div class="resume-left-column">
+							<div class="resume-section">
+								<div class="resume-section-title first-color first-color-border">Experience</div>
+								{{ partial "resume_experience.html" . }}
+							</div>
+						</div>
+						<div class="resume-right-column">
+							<div class="resume-section">
+								<div class="resume-section-title first-color first-color-border">Summary</div>
+								{{ partial "resume_summary.html" . }}
+							</div>
+							<div class="resume-section">
+								<div class="resume-section-title first-color first-color-border">Education</div>
+								{{ partial "resume_education.html" . }}
+							</div>
+							<div class="resume-section">
+								<div class="resume-section-title first-color first-color-border">Languages</div>
+								{{ partial "resume_languages.html" . }}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page-break"></div>
+				<div class="resume-page">
+					<div class="resume-body clearfix">
+						<div class="resume-left-column">
+							<div class="resume-section">
+								<div class="resume-section-title first-color first-color-border">Projects</div>
+								{{ partial "resume_projects.html" . }}
+							</div>
+						</div>
+						<div class="resume-right-column">
+							<div class="resume-section interests">
+								<div class="resume-section-title first-color first-color-border">Interests</div>
+								{{ partial "resume_interests.html" . }}
+							</div>
+						</div>
+					</div>
+					<div class="resume-section">
+						<div class="resume-section-title first-color first-color-border">Technologies &amp; Skills</div>
+						{{ partial "resume_skills.html" . }}
+					</div>
+				</div>
+			</div>
+		</div>
+		{{ partial "footer.html" . }}
+  </body>
 </html>
-

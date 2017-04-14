@@ -43,20 +43,20 @@ summary:
 
 education:
 
-  - position: Bachelor in Computer Engineering
-    company: Sherbrooke University
+  - degree: Bachelor in Computer Engineering
+    school: Sherbrooke University
     date: 2015 - 2019
     location: Sherbrooke, Canada
     description:
       - Co-op program
 
-  - position: Bachelor in Software Engineering
-    company: Concordia University
+  - degree: Bachelor in Software Engineering
+    school: Concordia University
     date: 2013 - 2014
     location: Montreal, Canada
 
-  - position: Pure and Applied Sciences Degree
-    company: Collège André-Grasset
+  - degree: Pure and Applied Sciences Degree
+    school: Collège André-Grasset
     date: 2013
     location: Montreal, Canada
 
@@ -87,7 +87,7 @@ interests:
   - icon: line-chart
     text: Trading
 
-  - icon: scuba-mask
+  - icon: ship
     text: Scuba-Diving
 
 
