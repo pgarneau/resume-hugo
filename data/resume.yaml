@@ -1,0 +1,209 @@
+name: Philippe Garneau
+title: Programmer
+
+pdf: philippe_garneau_resume.pdf
+last_update: April 2017
+source: https://github.com/pgarneau/resume-hugo
+
+header:
+  -
+    - icon: phone
+      text: +1 514 802-4018
+      href: tel:+15148024018
+
+    - icon: github
+      text: github.com/pgarneau
+      href: https://github.com/pgarneau
+    
+    - icon: link
+      text: garneau.me
+      href: http://garneau.me
+
+  -
+    - icon: envelope
+      text: philippegarneau1@gmail.com
+      href: mailto:philippegarneau1@gmail.com
+
+    - icon: linkedin
+      text: linkedin.com/in/pgarneau
+      href: https://www.linkedin.com/in/pgarneau
+
+    - icon: map-marker
+      text: Montreal, Canada
+
+
+summary:
+
+  - I'm a fast learning tech enthusiast looking for challenges.
+    Passionate about computer science and software architecture.
+
+  - My strongest skills are on the Back End side, but I'd like to
+    learn more about Front End and Project Management.
+
+
+education:
+
+  - position: Bachelor in Computer Engineering
+    company: Sherbrooke University
+    date: 2015 - 2019
+    location: Sherbrooke, Canada
+    description:
+      - Co-op program
+
+  - position: Bachelor in Software Engineering
+    company: Concordia University
+    date: 2013 - 2014
+    location: Montreal, Canada
+
+  - position: Pure and Applied Sciences Degree
+    company: Collège André-Grasset
+    date: 2013
+    location: Montreal, Canada
+
+
+languages:
+
+  - name: French
+    proficiency: Native
+    note: [y,y,y,y,y]
+
+  - name: English
+    proficiency: Native
+    note: [y,y,y,y,y]
+
+  - name: Spanish
+    proficiency: Beginner
+    note: [y,n,n,n,n]
+
+
+interests:
+
+  - icon: gamepad
+    text: Video Games
+
+  - icon: music
+    text: Music
+
+  - icon: line-chart
+    text: Trading
+
+  - icon: scuba-mask
+    text: Scuba-Diving
+
+
+skills:
+
+  -
+    - title: Back End
+      tags:
+        - Python
+        - C++
+        - Java
+        - Golang
+
+    - title: Front End
+      tags:
+        - HTML (Beginner)
+        - CSS3 (Beginner)
+        - JavaScript (Beginner)
+
+  -
+    - title: Cloud
+      tags:
+        - Kubernetes (Beginner)
+        - Docker (Beginner)
+
+    - title: Databases
+      tags:
+        - MongoDB (Beginner)
+        - Redis (Beginner)
+        - SQL (Beginner)
+
+  -
+    - title: OS
+      tags:
+        - Windows
+        - OS X
+        - Linux
+
+    - title: Other
+      tags:
+        - Git
+        - SVN
+        - TDD
+        - BDD Testing
+        - Robot Framework
+        - JIRA
+        - JSON
+        - YAML
+
+
+experience:
+
+  - position: Online Developer
+    company: Ubisoft - Rendez-Vous
+    date: Jan 2017 - April 2017
+    location: Montreal, Canada
+    description:
+      - Development of BDD style End to End tests through Robot Framework
+      - Continued development on a command line interface to be used
+        by the End to End tests
+      - Integration of the End to End tests into a web portal for better
+        visualization of test results and easier test launching.
+
+  - position: Online Developer
+    company: Ubisoft - Rendez-Vous
+    date: May 2016 - Aug 2016
+    location: Montreal, Canada
+    description:
+      - Development of RESTful web services for multiple triple-A
+        game productions using Django, MySQL and Python
+      - Developed and unit tested a command line interface to automate
+        calls to a web service using Python
+      - Developed multiple python packages for the Ubisoft ecosystem
+      - Added features and fixed bugs for an internal web portal using Angular
+
+  - position: Technical Support
+    company: National Bank of Canada
+    date: Oct 2014 - Jul 2015
+    location: Montreal, Canada
+    description:
+      - Supported all levels of employees at the bank
+      - Part of the Correspondant Network support team. The
+        Correspondant Network are paying clients using the
+        investment tools of the bank
+      - Member of multiple support teams for projects in
+        development
+
+
+projects:
+
+  - name: Mission Impossible
+    description:
+      - Development of a RESTful API with Java Servlets
+      - Communication between multiple Raspberry Pis using WebSockets and
+        HTTP calls over a LAN
+      - Development of GPIO libraries to connect lasers and photoresistors
+        to the Raspberry Pis
+      - Use of Agile Scrum methodology
+
+  - name: Pac-Man Remastered
+    description:
+      - Project manager for a 9 person team
+      - Developent of a Pac-Man game from scratch using C++ and Qt
+      - Integration of voice generated signals into game controls
+      - PCB design
+      - Use of Agile Kanban methodology
+
+  - name: Robot-Jouet Contest
+    description:
+      - Project manager for an 8 person team
+      - Worked with RFID technology
+      - Arduino programming
+      - C programming for the robot
+      - Use of Agile Kanban methodology
+
+  - name: Blackjack The Game
+    description:
+      - Python programming
+      - Development of a visually appealing UI
