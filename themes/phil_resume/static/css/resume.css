@@ -79,7 +79,6 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
 }
 .resume-page {
     background-color: #f8f8f8;
-    background-image: url(paper-bg.jpg);
     box-shadow: 10px 10px 20px rgba(0,0,0,.7);
     box-sizing: border-box;
     color: #303030;
@@ -148,7 +147,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     font-weight: normal;
     text-align: center;
 }
-.fa.fa-envelope { font-size: 70%; }
+.fa.fa-envelope { font-size: 80%; }
 
 .resume-header-info-item-text {
     font-size: 12px;
@@ -191,7 +190,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
 }
 .resume-section-item-inner {
     padding-bottom: 15px;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px dotted #ccc;
 }
 .resume-section-item:last-child > .resume-section-item-inner {
     padding-bottom: 0;
@@ -333,4 +332,32 @@ li:before {
 }
 .footer .last-update {
     float: right;
+}
+
+
+@media print {
+    * { -webkit-print-color-adjust: exact; }
+    body {
+        background-image: none;
+        background-color: #ffffff;
+    }
+    .resume {
+        display: block;
+    }
+    .resume-page {
+        background-image: none;
+        background-color: #ffffff;
+        box-shadow: none;
+        margin: 0 0 0;
+        padding: 0;
+    }
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+    a:hover, a:active { color: inherit; }
+    .top-right-ribbon { display: none; }
+    .footer { display: none; }
+    .site-wrap:after { height: 0; }
+    .top-right-ribbon { display: none; }
 }
