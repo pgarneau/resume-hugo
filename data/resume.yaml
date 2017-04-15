@@ -1,5 +1,5 @@
 name: Philippe Garneau
-title: Programmer
+title: Software Developer
 
 pdf: philippe_garneau_resume.pdf
 last_update: April 2017
@@ -43,19 +43,19 @@ summary:
 
 education:
 
-  - degree: Bachelor in Computer Engineering
+  - degree: B.Eng Computer Engineering
     school: Sherbrooke University
     date: 2015 - 2019
     location: Sherbrooke, Canada
     description:
       - Co-op program
 
-  - degree: Bachelor in Software Engineering
+  - degree: B.Eng Software Engineering
     school: Concordia University
     date: 2013 - 2014
     location: Montreal, Canada
 
-  - degree: Pure and Applied Sciences Degree
+  - degree: Pure and Applied Sciences
     school: Collège André-Grasset
     date: 2013
     location: Montreal, Canada
