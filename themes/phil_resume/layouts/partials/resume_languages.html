@@ -7,7 +7,7 @@
     </div>
 		<div class="language-right">
 			{{ range $dot := $element.note }}
-			<div class="slider-dot slider-dot-filled {{ if isset $dot "y" }}second-color-bg{{ else }}first-color-bg{{ end }}"></div>
+			<div class="slider-dot slider-dot-filled {{ if $dot }}second-color-bg{{ else }}first-color-bg{{ end }}"></div>
 			{{ end }}
 		</div>
   </div>
