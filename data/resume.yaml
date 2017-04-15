@@ -103,25 +103,25 @@ skills:
 
     - title: Front End
       tags:
-        - HTML(Beginner)
-        - CSS3(Beginner)
-        - JavaScript(Beginner)
-        - AngularJS(Beginner)
-        - jQuery(Beginner)
+        - HTML
+        - CSS3
+        - JavaScript
+        - AngularJS
+        - jQuery
 
   -
     - title: DevOps
       tags:
-        - Kubernetes(Beginner)
-        - Docke(Beginner)
+        - Kubernetes
+        - Docker
         - Robot Framework
         - End to End Tests
 
     - title: Databases
       tags:
-        - SQL(Beginner)
-        - MongoDB(Beginner)
-        - Redis(Beginner)
+        - SQL
+        - MongoDB
+        - Redis
 
   -
     - title: OS
@@ -192,7 +192,7 @@ projects:
   - name: Pac-Man Remastered
     description:
       - Project manager for a 9 person team
-      - Developent of a Pac-Man game from scratch using C++ and Qt
+      - Development of a Pac-Man game from scratch using C++ and Qt
       - Integration of voice generated signals into game controls
       - PCB design
       - Use of Agile Kanban methodology
