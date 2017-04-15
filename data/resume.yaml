@@ -97,27 +97,31 @@ skills:
     - title: Back End
       tags:
         - Python
-        - C++
         - Java
         - Golang
+        - C++
 
     - title: Front End
       tags:
-        - HTML (Beginner)
-        - CSS3 (Beginner)
-        - JavaScript (Beginner)
+        - HTML(Beginner)
+        - CSS3(Beginner)
+        - JavaScript(Beginner)
+        - AngularJS(Beginner)
+        - jQuery(Beginner)
 
   -
-    - title: Cloud
+    - title: DevOps
       tags:
-        - Kubernetes (Beginner)
-        - Docker (Beginner)
+        - Kubernetes(Beginner)
+        - Docke(Beginner)
+        - Robot Framework
+        - End to End Tests
 
     - title: Databases
       tags:
-        - MongoDB (Beginner)
-        - Redis (Beginner)
-        - SQL (Beginner)
+        - SQL(Beginner)
+        - MongoDB(Beginner)
+        - Redis(Beginner)
 
   -
     - title: OS
@@ -131,8 +135,6 @@ skills:
         - Git
         - SVN
         - TDD
-        - BDD Testing
-        - Robot Framework
         - JIRA
         - JSON
         - YAML
@@ -149,7 +151,7 @@ experience:
       - Continued development on a command line interface to be used
         by the End to End tests
       - Integration of the End to End tests into a web portal for better
-        visualization of test results and easier test launching.
+        visualization of test results and easier test launching
 
   - position: Online Developer
     company: Ubisoft - Rendez-Vous

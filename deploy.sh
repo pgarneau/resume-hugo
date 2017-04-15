@@ -5,6 +5,9 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+# Copy the resume PDF over to public
+yes | cp -f philippe_garneau_resume.pdf public/
+
 # Go To Public folder
 cd public
 # Add changes to git.
