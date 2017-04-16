@@ -21,8 +21,8 @@ header:
 
   -
     - icon: envelope
-      text: philippegarneau1@gmail.com
-      href: mailto:philippegarneau1@gmail.com
+      text: philippe@garneau.me
+      href: mailto:philippe@garneau.me
 
     - icon: linkedin
       text: linkedin.com/in/pgarneau
@@ -49,11 +49,6 @@ education:
     location: Sherbrooke, Canada
     description:
       - Co-op program
-
-  - degree: B.Eng Software Engineering
-    school: Concordia University
-    date: 2013 - 2014
-    location: Montreal, Canada
 
   - degree: Pure and Applied Sciences
     school: Collège André-Grasset
