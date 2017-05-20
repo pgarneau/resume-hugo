@@ -107,16 +107,15 @@ skills:
   -
     - title: DevOps
       tags:
-        - Kubernetes
-        - Docker
         - Robot Framework
         - End to End Tests
+        - Docker
+        - Kubernetes
 
     - title: Databases
       tags:
         - SQL
         - MongoDB
-        - Redis
 
   -
     - title: OS
@@ -143,10 +142,14 @@ experience:
     location: Montreal, Canada
     description:
       - Development of BDD style End to End tests through Robot Framework
+      - Reduced QA time by 35%
       - Continued development on a command line interface to be used
         by the End to End tests
+      - Ownership of the command line interface project requiring important
+        design decisions for future proofing, minimizing API breaks and performance
       - Integration of the End to End tests into a web portal for better
         visualization of test results and easier test launching
+      - Promoted the use of the command line tool as a production tool to clients
 
   - position: Online Developer
     company: Ubisoft - Rendez-Vous
