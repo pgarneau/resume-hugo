@@ -2,6 +2,6 @@
 
 rm -rf public/
 
-git rm --cached public/
+git rm -r --cached public/
 
 git submodule add -b master http://github.com/pgarneau/pgarneau.github.io.git public --force
