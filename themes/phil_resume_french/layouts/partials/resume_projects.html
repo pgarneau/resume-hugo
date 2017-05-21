@@ -1,0 +1,14 @@
+{{ range $exp := .Site.Data.resume_french.projects }}
+<div class="resume-section-item">
+	<div class="resume-section-item-inner">
+		<div class="position first-color">{{ $exp.name }}</div>
+		<div class="description">
+			<ul>
+				{{ range $d := $exp.description }}
+				<li>{{ $d }}</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</div>
+{{ end }}

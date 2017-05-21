@@ -2,7 +2,7 @@ name: Philippe Garneau
 title: Software Developer
 
 pdf: philippe_garneau_resume.pdf
-last_update: April 2017
+last_update: May 2017
 source: https://github.com/pgarneau/resume-hugo
 
 header:
@@ -34,8 +34,9 @@ header:
 
 summary:
 
-  - I'm a fast learning tech enthusiast looking for challenges.
-    Passionate about computer science and software architecture.
+  - I'm a fast learning tech enthusiast, passionate about computer
+    science and software architecture. I'm continually looking for
+    new challenges both inside and outside of my field.
 
   - My strongest skills are in back end development, but I'm eager
     to learn more about front end development and project management.
@@ -73,17 +74,17 @@ languages:
 
 interests:
 
-  - icon: gamepad
-    text: Video Games
+  - icon: ship
+    text: Scuba-Diving
+  
+  - icon: line-chart
+    text: Trading
 
   - icon: music
     text: Music
 
-  - icon: line-chart
-    text: Trading
-
-  - icon: ship
-    text: Scuba-Diving
+  - icon: gamepad
+    text: Video Games
 
 
 skills:
@@ -107,15 +108,16 @@ skills:
   -
     - title: DevOps
       tags:
-        - Robot Framework
-        - End to End Tests
         - Docker
         - Kubernetes
+        - Robot Framework
+        - End to End Tests
 
     - title: Databases
       tags:
         - SQL
         - MongoDB
+        - Redis
 
   -
     - title: OS
@@ -178,6 +180,15 @@ experience:
 
 projects:
 
+  - name: Microgame (in progress)
+    description:
+      - Development of a simple game with a micro-services architecture
+      - Development of a RESTful API using Golang
+      - Use of Docker containers to simplify a future migration
+        into Kubernetes
+      - Use of a containerized PostgreSQL database
+      - Heavy use of makefiles in order to simplify deployments
+
   - name: Mission Impossible
     description:
       - Development of a RESTful API with Java Servlets
@@ -202,8 +213,3 @@ projects:
       - Arduino programming
       - C programming for the robot
       - Use of Agile Kanban methodology
-
-  - name: Blackjack The Game
-    description:
-      - Python programming
-      - Development of a visually appealing UI

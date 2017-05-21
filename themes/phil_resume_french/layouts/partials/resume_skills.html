@@ -1,0 +1,18 @@
+{{ range $section := .Site.Data.resume_french.skills }}
+<div class="resume-section-item">
+	<div class="resume-section-item-inner">
+		<div class="two-columns">
+			{{ range $element := $section }}
+			<div class="column">
+				<div class="tech-title second-color">{{ $element.title }}</div>
+				<div class="tech-tags-container first-color">
+					{{ range $tag := $element.tags }}
+					<div class="tech-tag">{{ $tag }}</div>
+					{{ end }}
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

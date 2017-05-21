@@ -1,0 +1,7 @@
+{{ range $element := .Site.Data.resume_french.interests }}
+<div class="resume-section-item">
+	<div class="resume-section-item-inner">
+		<i class="fa fa-{{ $element.icon }} second-color" aria-hidden="true"></i>{{ $element.text }}
+	</div>
+</div>
+{{ end }}

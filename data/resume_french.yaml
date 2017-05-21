@@ -1,0 +1,218 @@
+name: Philippe Garneau
+title: Développeur Logiciel
+
+pdf: philippe_garneau_resume.pdf
+last_update: May 2017
+source: https://github.com/pgarneau/resume-hugo
+
+header:
+  -
+    - icon: phone
+      text: +1 514 802-4018
+      href: tel:+15148024018
+
+    - icon: github
+      text: github.com/pgarneau
+      href: https://github.com/pgarneau
+    
+    - icon: link
+      text: garneau.me
+      href: http://garneau.me
+
+  -
+    - icon: envelope
+      text: philippe@garneau.me
+      href: mailto:philippe@garneau.me
+
+    - icon: linkedin
+      text: linkedin.com/in/pgarneau
+      href: https://www.linkedin.com/in/pgarneau
+
+    - icon: map-marker
+      text: Montréal, Canada
+
+
+summary:
+
+  - Je suis un passioné de la technologie et de l'architecture
+    logicielle. Je suis continuellement à la recherche de nouveaux
+    défis et connaissances dans mon domaine.
+
+  - Mes compétences les plus fortes sont en développement back end,
+    mais je suis avide d'apprendre plus sur le développement front end
+    et la gestion de projet.
+
+
+education:
+
+  - degree: B.Ing Génie Informatique
+    school: Université Sherbrooke
+    date: 2015 - 2019
+    location: Sherbrooke, Canada
+    description:
+      - Programme Co-op
+
+  - degree: Sciences Pures
+    school: Collège André-Grasset
+    date: 2013
+    location: Montréal, Canada
+
+
+languages:
+
+  - name: Français
+    proficiency: Langue maternelle
+    note: [y,y,y,y,y]
+
+  - name: Anglais
+    proficiency: Langue maternelle
+    note: [y,y,y,y,y]
+
+  - name: Espagnol
+    proficiency: Débutant
+    note: [y,n,n,n,n]
+
+
+interests:
+
+  - icon: ship
+    text: Plongée sous-marine
+  
+  - icon: line-chart
+    text: Marchés boursiers
+
+  - icon: music
+    text: Musique
+
+  - icon: gamepad
+    text: Jeux Vidéo
+
+
+skills:
+
+  -
+    - title: Back End
+      tags:
+        - Python
+        - Java
+        - Golang
+        - C++
+
+    - title: Front End
+      tags:
+        - HTML
+        - CSS3
+        - JavaScript
+        - AngularJS
+        - jQuery
+
+  -
+    - title: DevOps
+      tags:
+        - Docker
+        - Kubernetes
+        - Robot Framework
+        - Tests End to End
+
+    - title: Base de données
+      tags:
+        - SQL
+        - MongoDB
+        - Redis
+
+  -
+    - title: OS
+      tags:
+        - Windows
+        - OS X
+        - Linux
+
+    - title: Autre
+      tags:
+        - Git
+        - SVN
+        - TDD
+        - JIRA
+        - JSON
+        - YAML
+
+
+experience:
+
+  - position: Développeur Online
+    company: Ubisoft - Rendez-Vous
+    date: Janvier 2017 - Avril 2017
+    location: Montréal, Canada
+    description:
+      - Développement de tests End to End de style BDD avec Robot Framework
+      - Réduction du temps de QA de 35%
+      - Développement d'une interface de ligne de commande utilisée par
+        les tests End to End
+      - Prise de décisions importantes sur le désign du projet afin de minimiser
+        les bris d'API et d'améliorer la performance
+      - Intégration des tests End to End dans une page web afin d'avoir un meilleur
+        apperçu des résultats et de simplifier l'exécution des tests
+      - Promotion de l'interface de ligne de commande à des clients comme outil
+        de production
+
+  - position: Développeur Online
+    company: Ubisoft - Rendez-Vous
+    date: Mai 2016 - Août 2016
+    location: Montréal, Canada
+    description:
+      - Développement de services web REST pour plusieurs productions
+        de jeux vidéo utilisant Django, MySQL et Python
+      - Developpement d'une interface de ligne de command pour automatiser
+        des appels à un services web en python
+      - Développement de plusieurs "packages" python pour l'écosystème Ubisoft
+      - Ajout de fonctionnalités et correction de "bugs" pour un portail web
+        interne en utilisant Angular
+
+  - position: Support Informatique
+    company: Banque Nationale du Canada
+    date: Octobre 2014 - Juillet 2015
+    location: Montréal, Canada
+    description:
+      - Support pour plusieurs niveaux d'employés de la banque
+      - Membre de l'équipe de support du "Correspondant Network".
+        Le "Correspondant Network" est un regroupement de clients
+        externes de la banque payant pour leurs outils boursiers
+      - Membre de plusieurs équipes de support pour des projets en
+        développement
+
+
+projects:
+
+  - name: Microgame (non terminé)
+    description:
+      - Développement d'un jeu avec une architecture de micro-services
+      - Programmation d'un API REST en Golang
+      - Utilisation de containers Docker pour faciliter une migration
+        future vers Kubernetes
+      - Intégration d'une base de données PostgreSQL en container
+      - Utilisation de makefiles pour faciliter le déploiement
+
+  - name: Mission Impossible
+    description:
+      - Développement d'un API REST avec des Servlets Java
+      - Communication entre plusieurs Raspberry Pis en utilisant
+        les WebSockets et des appels HTTP en LAN
+      - Développement de librairies pour les ports GPIO des Raspberry Pis
+        afin de controller des lasers et photorésistances
+      - Utilisation de la méthodologie Agile Scrum
+
+  - name: Pac-Man "Remastered"
+    description:
+      - Gestionnaire de projet pour une équipe de 9 personnes
+      - Développement d'un jeu Pac-Man complet à l'aide de C++ et Qt
+      - Intégration de commandes vocales pour intéragir avec le jeu
+      - Désign de PCB
+      - Utilisation de la méthodologie Agile Kanban
+
+  - name: Concours Robot-Jouet
+    description:
+      - Gestionnaire de projet pour une équipe de 8 personnes
+      - Transfert de données avec RFID
+      - Programmation Arduino
+      - Programmation en C pour le robot
+      - Utilisation de la méthodologie Agile Kanban

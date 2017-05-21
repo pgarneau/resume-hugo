@@ -1,0 +1,24 @@
+<div class="resume-header clearfix">
+	<div class="resume-header-left">
+		<div class="name first-color">{{ .Site.Data.resume_french.name }}</div>
+		<div class="title second-color">{{ .Site.Data.resume_french.title }}</div>
+		<div class="resume-header-info two-columns">
+			{{ range $column := .Site.Data.resume_french.header }}
+			<div class="column">
+				{{ range $element := $column }}
+				<div class="resume-header-info-item">
+					<i class="fa fa-{{ $element.icon }} second-color" aria-hidden="true"></i>
+					<span class="resume-header-info-item-text">
+						{{ if $element.href }}
+						<a href="{{ $element.href }}" target="_blank">{{ $element.text }}</a>
+						{{ else }}
+						{{ $element.text }}
+						{{ end }}
+					</span>
+				</div>
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>

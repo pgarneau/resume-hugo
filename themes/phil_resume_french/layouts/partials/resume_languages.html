@@ -1,0 +1,15 @@
+{{ range $element := .Site.Data.resume_french.languages }}
+<div class="resume-section-item">
+	<div class="resume-section-item-inner clearfix">
+		<div class="language-left">
+			<div class="language-name first-color">{{ $element.name }}</div>
+			<div class="language-proficiency">{{ $element.proficiency }}</div>
+    </div>
+		<div class="language-right">
+			{{ range $dot := $element.note }}
+			<div class="slider-dot slider-dot-filled {{ if $dot }}second-color-bg{{ else }}first-color-bg{{ end }}"></div>
+			{{ end }}
+		</div>
+  </div>
+</div>
+{{ end }}
