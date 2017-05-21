@@ -34,7 +34,7 @@ header:
 
 summary:
 
-  - Je suis un passioné de la technologie et de l'architecture
+  - Je suis un passionné de la technologie et de l'architecture
     logicielle. Je suis continuellement à la recherche de nouveaux
     défis et connaissances dans mon domaine.
 
@@ -148,10 +148,10 @@ experience:
       - Réduction du temps de QA de 35%
       - Développement d'une interface de ligne de commande utilisée par
         les tests End to End
-      - Prise de décisions importantes sur le désign du projet afin de minimiser
+      - Prise de décisions importantes sur la conception du projet afin de minimiser
         les bris d'API et d'améliorer la performance
       - Intégration des tests End to End dans une page web afin d'avoir un meilleur
-        apperçu des résultats et de simplifier l'exécution des tests
+        aperçu des résultats et de simplifier l'exécution des tests
       - Promotion de l'interface de ligne de commande à des clients comme outil
         de production
 
@@ -162,10 +162,10 @@ experience:
     description:
       - Développement de services web REST pour plusieurs productions
         de jeux vidéo utilisant Django, MySQL et Python
-      - Developpement d'une interface de ligne de command pour automatiser
+      - Developpement d'une interface de ligne de commande pour automatiser
         des appels à un services web en python
       - Développement de plusieurs "packages" python pour l'écosystème Ubisoft
-      - Ajout de fonctionnalités et correction de "bugs" pour un portail web
+      - Ajout de fonctionnalités et correction de bogues pour un portail web
         interne en utilisant Angular
 
   - position: Support Informatique
@@ -195,9 +195,9 @@ projects:
   - name: Mission Impossible
     description:
       - Développement d'un API REST avec des Servlets Java
-      - Communication entre plusieurs Raspberry Pis en utilisant
+      - Communication entre plusieurs Raspberry Pi en utilisant
         les WebSockets et des appels HTTP en LAN
-      - Développement de librairies pour les ports GPIO des Raspberry Pis
+      - Développement de "libraries" pour les ports GPIO des Raspberry Pi
         afin de controller des lasers et photorésistances
       - Utilisation de la méthodologie Agile Scrum
 
@@ -206,13 +206,13 @@ projects:
       - Gestionnaire de projet pour une équipe de 9 personnes
       - Développement d'un jeu Pac-Man complet à l'aide de C++ et Qt
       - Intégration de commandes vocales pour intéragir avec le jeu
-      - Désign de PCB
+      - Conception de PCB
       - Utilisation de la méthodologie Agile Kanban
 
   - name: Concours Robot-Jouet
     description:
       - Gestionnaire de projet pour une équipe de 8 personnes
-      - Transfert de données avec RFID
+      - Transfert de données par RFID
       - Programmation Arduino
       - Programmation en C pour le robot
       - Utilisation de la méthodologie Agile Kanban

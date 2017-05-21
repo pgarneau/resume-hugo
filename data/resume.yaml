@@ -192,10 +192,10 @@ projects:
   - name: Mission Impossible
     description:
       - Development of a RESTful API with Java Servlets
-      - Communication between multiple Raspberry Pis using WebSockets and
+      - Communication between multiple Raspberry Pi using WebSockets and
         HTTP calls over a LAN
       - Development of GPIO libraries to connect lasers and photoresistors
-        to the Raspberry Pis
+        to the Raspberry Pi
       - Use of Agile Scrum methodology
 
   - name: Pac-Man Remastered
