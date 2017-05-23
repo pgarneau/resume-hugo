@@ -163,7 +163,7 @@ experience:
       - Développement de services web REST pour plusieurs productions
         de jeux vidéo utilisant Django, MySQL et Python
       - Developpement d'une interface de ligne de commande pour automatiser
-        des appels à un services web en python
+        des appels à un service web en python
       - Développement de plusieurs "packages" python pour l'écosystème Ubisoft
       - Ajout de fonctionnalités et correction de bogues pour un portail web
         interne en utilisant Angular
@@ -183,7 +183,7 @@ experience:
 
 projects:
 
-  - name: Microgame (non terminé)
+  - name: Microgame (en cours)
     description:
       - Développement d'un jeu avec une architecture de micro-services
       - Programmation d'un API REST en Golang
@@ -198,7 +198,7 @@ projects:
       - Communication entre plusieurs Raspberry Pi en utilisant
         les WebSockets et des appels HTTP en LAN
       - Développement de "libraries" pour les ports GPIO des Raspberry Pi
-        afin de controller des lasers et photorésistances
+        afin de contrôler des lasers et photorésistances
       - Utilisation de la méthodologie Agile Scrum
 
   - name: Pac-Man "Remastered"
