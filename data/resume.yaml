@@ -6,89 +6,110 @@ last_update: May 2017
 source: https://github.com/pgarneau/resume-hugo
 
 header:
-  -
-    - icon: phone
-      text: +1 514 802-4018
-      href: tel:+15148024018
+  - icon: phone
+    text: +1 514 802-4018
+    href: tel:+15148024018
 
-    - icon: github
-      text: github.com/pgarneau
-      href: https://github.com/pgarneau
-    
-    - icon: link
-      text: garneau.me
-      href: http://garneau.me
+  - icon: github
+    text: pgarneau
+    href: https://github.com/pgarneau
+  
+  - icon: link
+    text: garneau.me
+    href: http://garneau.me
 
-  -
-    - icon: envelope
-      text: philippe@garneau.me
-      href: mailto:philippe@garneau.me
+  - icon: envelope
+    text: philippe@garneau.me
+    href: mailto:philippe@garneau.me
 
-    - icon: linkedin
-      text: linkedin.com/in/pgarneau
-      href: https://www.linkedin.com/in/pgarneau
+  # - icon: linkedin
+  #   text: linkedin.com/in/pgarneau
+  #   href: https://www.linkedin.com/in/pgarneau
 
-    - icon: map-marker
-      text: Montreal, Canada
-
-
-summary:
-
-  - I'm a fast learning tech enthusiast, passionate about computer
-    science and software architecture. I'm continually looking for
-    new challenges both inside and outside of my field.
-
-  - My strongest skills are in back end development, but I'm eager
-    to learn more about front end development and project management.
-
+  - icon: map-marker
+    text: Montreal, Canada
 
 education:
-
   - degree: B.Eng Computer Engineering
     school: Sherbrooke University
     date: 2015 - 2019
     location: Sherbrooke, Canada
-    description:
-      - Co-op program
 
-  - degree: Pure and Applied Sciences
-    school: Collège André-Grasset
-    date: 2013
+experience:
+  - position: R&D Technologist
+    company: JDA Labs
+    date: May 2018 - Aug 2018
     location: Montreal, Canada
+    description:
+      - Ownership of a Blockchain POC for the supply chain using Hyperledger Fabric and Docker
+      - Development of a Golang web service used to interact with the Blockchain network using the Fabric Go SDK
+      - Development of the Golang chaincode used to interact with the ledger running on CouchDB containers
 
+  - position: Software Developer
+    company: JDA Software
+    date: Sept 2017 - Dec 2017
+    location: Montreal, Canada
+    description:
+      - Developed Java(Spring) and Python(Flask) microservices running on Google AppEngine for the "JDA Luminate" SaaS project
+      - Developed Java and Python libraries to interact with GCP's services (Datastore, Pubsub)
+      - Developed Jenkins plugins and custom gradle tasks in Groovy to track releases, deployments and metadata of microservices
 
-languages:
+  - position: Online Developer
+    company: Ubisoft - Rendez-Vous
+    date: Jan 2017 - April 2017
+    location: Montreal, Canada
+    description:
+      - Development of an E2E test framework using Robot Framework
+      - Continued development of the Python CLI used by the E2E test framework to interact
+        with the monolith web service
+      - Developed a web app using AngularJS for better visualization of test results and
+        easier test launching
 
-  - name: French
-    proficiency: Native
-    note: [y,y,y,y,y]
+  - position: Online Developer
+    company: Ubisoft - Rendez-Vous
+    date: May 2016 - Aug 2016
+    location: Montreal, Canada
+    description:
+      - Development of RESTful web services using Python, Django, MySQL, MongoDB
+      - Development of a Python CLI to automate calls to a monolith web service
+      - Developed multiple Python packages for the Ubisoft ecysystem
 
-  - name: English
-    proficiency: Native
-    note: [y,y,y,y,y]
+projects:
+  - name: Microgame (in progress)
+    description:
+      - Development of a simple game with a micro-services architecture
+      - Development of a RESTful API using Golang
+      - Use of Docker containers to simplify a future migration
+        into Kubernetes
+      - Use of a containerized PostgreSQL database
+      - Heavy use of makefiles in order to simplify deployments
 
-  - name: Spanish
-    proficiency: Beginner
-    note: [y,n,n,n,n]
+  - name: Mission Impossible
+    description:
+      - Development of a RESTful API with Java Servlets
+      - Communication between multiple Raspberry Pi using WebSockets and
+        HTTP calls over a LAN
+      - Development of GPIO libraries to connect lasers and photoresistors
+        to the Raspberry Pi
+      - Use of Agile Scrum methodology
 
+  - name: Pac-Man Remastered
+    description:
+      - Project manager for a 9 person team
+      - Development of a Pac-Man game from scratch using C++ and Qt
+      - Integration of voice generated signals into game controls
+      - PCB design
+      - Use of Agile Kanban methodology
 
-interests:
-
-  - icon: ship
-    text: Scuba-Diving
-  
-  - icon: line-chart
-    text: Trading
-
-  - icon: music
-    text: Music
-
-  - icon: gamepad
-    text: Video Games
-
+  - name: Robot-Jouet Contest
+    description:
+      - Project manager for an 8 person team
+      - Worked with RFID technology
+      - Arduino programming
+      - C programming for the robot
+      - Use of Agile Kanban methodology
 
 skills:
-
   -
     - title: Back End
       tags:
@@ -135,81 +156,36 @@ skills:
         - JSON
         - YAML
 
+summary:
+  - I'm a fast learning tech enthusiast, passionate about computer
+    science and software architecture. I'm continually looking for
+    new challenges both inside and outside of my field.
 
-experience:
+  - My strongest skills are in back end development, but I'm eager
+    to learn more about front end development and project management.
 
-  - position: Online Developer
-    company: Ubisoft - Rendez-Vous
-    date: Jan 2017 - April 2017
-    location: Montreal, Canada
-    description:
-      - Development of BDD style End to End tests through Robot Framework
-      - Reduced QA time by 35%
-      - Continued development on a command line interface to be used
-        by the End to End tests
-      - Ownership of the command line interface project requiring important
-        design decisions for future proofing, minimizing API breaks and performance
-      - Integration of the End to End tests into a web portal for better
-        visualization of test results and easier test launching
-      - Promoted the use of the command line tool as a production tool to clients
+languages:
+  - name: French
+    proficiency: Native
+    note: [y,y,y,y,y]
 
-  - position: Online Developer
-    company: Ubisoft - Rendez-Vous
-    date: May 2016 - Aug 2016
-    location: Montreal, Canada
-    description:
-      - Development of RESTful web services for multiple triple-A
-        game productions using Django, MySQL and Python
-      - Developed and unit tested a command line interface to automate
-        calls to a web service using Python
-      - Developed multiple python packages for the Ubisoft ecosystem
-      - Added features and fixed bugs for an internal web portal using Angular
+  - name: English
+    proficiency: Native
+    note: [y,y,y,y,y]
 
-  - position: Technical Support
-    company: National Bank of Canada
-    date: Oct 2014 - Jul 2015
-    location: Montreal, Canada
-    description:
-      - Supported all levels of employees at the bank
-      - Part of the Correspondant Network support team. The
-        Correspondant Network are paying clients using the
-        investment tools of the bank
-      - Member of multiple support teams for projects in
-        development
+  - name: Spanish
+    proficiency: Beginner
+    note: [y,n,n,n,n]
 
+interests:
+  - icon: ship
+    text: Scuba-Diving
+  
+  - icon: line-chart
+    text: Trading
 
-projects:
+  - icon: music
+    text: Music
 
-  - name: Microgame (in progress)
-    description:
-      - Development of a simple game with a micro-services architecture
-      - Development of a RESTful API using Golang
-      - Use of Docker containers to simplify a future migration
-        into Kubernetes
-      - Use of a containerized PostgreSQL database
-      - Heavy use of makefiles in order to simplify deployments
-
-  - name: Mission Impossible
-    description:
-      - Development of a RESTful API with Java Servlets
-      - Communication between multiple Raspberry Pi using WebSockets and
-        HTTP calls over a LAN
-      - Development of GPIO libraries to connect lasers and photoresistors
-        to the Raspberry Pi
-      - Use of Agile Scrum methodology
-
-  - name: Pac-Man Remastered
-    description:
-      - Project manager for a 9 person team
-      - Development of a Pac-Man game from scratch using C++ and Qt
-      - Integration of voice generated signals into game controls
-      - PCB design
-      - Use of Agile Kanban methodology
-
-  - name: Robot-Jouet Contest
-    description:
-      - Project manager for an 8 person team
-      - Worked with RFID technology
-      - Arduino programming
-      - C programming for the robot
-      - Use of Agile Kanban methodology
+  - icon: gamepad
+    text: Video Games

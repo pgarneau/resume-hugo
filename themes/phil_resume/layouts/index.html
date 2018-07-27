@@ -9,60 +9,28 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CLato" rel="stylesheet">
 		<link href="/css/resume.css" rel="stylesheet" type="text/css" media="all">
 	</head>
-  <body>
-		<div class="top-right-ribbon">
-			<a href="/philippe_garneau_resume.pdf">PDF version</a>
-		</div>
+	<body>
 		<div class="site-wrap">
 			<div class="resume">
 				<div class="resume-page">
 					{{ partial "header.html" . }}
 					<div class="resume-body clearfix">
-						<div class="resume-left-column">
-							<div class="resume-section">
-								<div class="resume-section-title first-color first-color-border">Experience</div>
-								{{ partial "resume_experience.html" . }}
-							</div>
+						<div class="resume-section">
+							<div class="resume-section-title first-color first-color-border">Education</div>
+							{{ partial "resume_education.html" . }}
 						</div>
-						<div class="resume-right-column">
-							<div class="resume-section">
-								<div class="resume-section-title first-color first-color-border">Summary</div>
-								{{ partial "resume_summary.html" . }}
-							</div>
-							<div class="resume-section">
-								<div class="resume-section-title first-color first-color-border">Education</div>
-								{{ partial "resume_education.html" . }}
-							</div>
-							<div class="resume-section">
-								<div class="resume-section-title first-color first-color-border">Languages</div>
-								{{ partial "resume_languages.html" . }}
-							</div>
+						<div class="resume-section">
+							<div class="resume-section-title first-color first-color-border">Experience</div>
+							{{ partial "resume_experience.html" . }}
 						</div>
-					</div>
-				</div>
-				<div class="page-break"></div>
-				<div class="resume-page">
-					<div class="resume-body clearfix">
-						<div class="resume-left-column">
-							<div class="resume-section">
-								<div class="resume-section-title first-color first-color-border">Projects</div>
-								{{ partial "resume_projects.html" . }}
-							</div>
+						<div class="resume-section">
+							<div class="resume-section-title first-color first-color-border">Projects</div>
+							{{ partial "resume_projects.html" . }}
 						</div>
-						<div class="resume-right-column">
-							<div class="resume-section interests">
-								<div class="resume-section-title first-color first-color-border">Interests</div>
-								{{ partial "resume_interests.html" . }}
-							</div>
-						</div>
-					</div>
-					<div class="resume-section">
-						<div class="resume-section-title first-color first-color-border">Technologies &amp; Skills</div>
-						{{ partial "resume_skills.html" . }}
 					</div>
 				</div>
 			</div>
 		</div>
-		{{ partial "footer.html" . }}
-  </body>
+		<!-- {{ partial "footer.html" . }} -->
+	</body>
 </html>

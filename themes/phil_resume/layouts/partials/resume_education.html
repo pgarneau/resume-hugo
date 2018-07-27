@@ -1,20 +1,21 @@
 {{ range $element := .Site.Data.resume.education }}
 <div class="resume-section-item">
 	<div class="resume-section-item-inner">
-		<div class="position first-color">{{ $element.degree }}</div>
-		<div class="company second-color">{{ $element.school }}</div>
-		<div class="date-location">
-			<i class="fa fa-calendar" aria-hidden="true"></i>
-			<span>{{ $element.date }}</span>
-			<i class="fa fa-map-marker" aria-hidden="true"></i>
-			<span>{{ $element.location }}</span>
-		</div>
-		<div class="description">
-			<ul>
-				{{ range $d := $element.description }}
-				<li>{{ $d }}</li>
-				{{ end }}
-			</ul>
+		<div class="resume-section-item-details">
+			<div>
+				<div class="position first-color">{{ $element.degree }}</div>
+				<div class="company second-color">{{ $element.school }}</div>
+			</div>
+			<div class="date-location">
+				<div>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<span>{{ $element.date }}</span>
+				</div>
+				<div>					
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<span>{{ $element.location }}</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

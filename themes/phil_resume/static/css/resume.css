@@ -1,5 +1,3 @@
----
----
 /* CSS reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -108,14 +106,19 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     padding-right: 15px;
     float: left;
 }
+.resume-header-center {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+}
 .resume-header .name {
-    height: 50px;
+    height: 32px;
     font-family: 'Lato', sans-serif;
     display: inline-block;
     vertical-align: top;
     max-width: 610px;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 600;
 }
 .resume-header .title {
@@ -124,9 +127,26 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     font-weight: 600;
 }
 .resume-header-info {
-    display: table;
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
 }
+.fa {
+    width: 14px;
+    padding-right: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+.fa.fa-envelope {
+    font-size: 80%;
+}
+.resume-header-info-item-text {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
 .resume .two-columns {
     display: table;
     width: 100%;
@@ -135,70 +155,41 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     display: table-cell;
     width: 50%;
 }
-.resume-header-info-item {
-    padding-right: 5px;
-    padding-bottom: 7px;
-    height: 16px;
-}
-.resume-header-info-item .fa {
-    width: 14px;
-    padding-right: 3px;
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-}
-.fa.fa-envelope { font-size: 80%; }
-
-.resume-header-info-item-text {
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 16px;
-}
-.resume-header-right {
-    padding-left: 15px;
-    float: right;
-}
 .resume-body {
-    padding-top: 20px;
-}
-.resume-left-column {
-    width: 60%;
-    padding-right: 15px;
-    float: left;
-    box-sizing: border-box;
-}
-.resume-right-column {
-    width: 40%;
-    float: left;
+    padding-top: 0px;
 }
 .resume-section {
-    padding-bottom: 20px;
+    padding-bottom: 12px;
 }
 .resume-section-title {
     font-family: 'Lato', sans-serif;
-    height: 28px;
+    height: 10px;
     margin: 10px 15px 0;
     padding-bottom: 5px;
     border-bottom: 3px solid #000;
     text-transform: uppercase;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 0px;
     font-weight: 600;
 }
 .resume-section-item {
-    padding: 15px 15px 0;
+    padding: 10px 15px 0;
 }
 .resume-section-item-inner {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-bottom: 2px dotted #ccc;
 }
 .resume-section-item:last-child > .resume-section-item-inner {
     padding-bottom: 0;
     border-bottom: none;
 }
+.resume-section-item-details {
+    display: flex;
+    justify-content: space-between;
+}
 .resume-section .position {
-    height: 25px;
-    font-size: 21px;
+    height: 18px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 }
 .resume-section .company {
@@ -212,12 +203,15 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     height: 15px;
     padding-left: 2px;
     padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .resume-section .date-location span {
     padding: 0px 12px 0px 5px;
 }
 .resume-section .description {
-    font-size: 13px;
+    font-size: 12px;
 }
 .resume-section .description span {
     margin-top: 5px;
@@ -332,32 +326,4 @@ li:before {
 }
 .footer .last-update {
     float: right;
-}
-
-
-@media print {
-    * { -webkit-print-color-adjust: exact; }
-    body {
-        background-image: none;
-        background-color: #ffffff;
-    }
-    .resume {
-        display: block;
-    }
-    .resume-page {
-        background-image: none;
-        background-color: #ffffff;
-        box-shadow: none;
-        margin: 0 0 0;
-        padding: 0;
-    }
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-    a:hover, a:active { color: inherit; }
-    .top-right-ribbon { display: none; }
-    .footer { display: none; }
-    .site-wrap:after { height: 0; }
-    .top-right-ribbon { display: none; }
 }

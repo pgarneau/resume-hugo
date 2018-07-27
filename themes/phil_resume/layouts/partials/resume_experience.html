@@ -1,13 +1,21 @@
 {{ range $exp := .Site.Data.resume.experience }}
 <div class="resume-section-item">
 	<div class="resume-section-item-inner">
-		<div class="position first-color">{{ $exp.position }}</div>
-		<div class="company second-color">{{ $exp.company }}</div>
-		<div class="date-location">
-			<i class="fa fa-calendar" aria-hidden="true"></i>
-			<span>{{ $exp.date }}</span>
-			<i class="fa fa-map-marker" aria-hidden="true"></i>
-			<span>{{ $exp.location }}</span>
+		<div class="resume-section-item-details">
+			<div class="position-company">
+				<div class="position first-color">{{ $exp.position }}</div>
+				<div class="company second-color">{{ $exp.company }}</div>
+			</div>
+			<div class="date-location">
+				<div>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+					<span>{{ $exp.date }}</span>
+				</div>
+				<div>
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<span>{{ $exp.location }}</span>
+				</div>
+			</div>
 		</div>
 		<div class="description">
 			<ul>
