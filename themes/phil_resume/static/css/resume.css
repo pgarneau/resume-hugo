@@ -77,18 +77,18 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
 }
 .resume-page {
     background-color: #f8f8f8;
-    box-shadow: 10px 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 0px rgba(0,0,0,.7);
     box-sizing: border-box;
     color: #303030;
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     height: 1209px;
-    margin: 40px 30px;
-    padding: 60px;
+    margin: 18pt;
+    padding: 30px 20px;
     position: relative;
-    width: 940px;
-    min-width: 940px;
+    width: 612pt;
+    min-width: 612pt;
 }
 .resume .first-color { color: #252525; }
 .resume .first-color-bg { background-color: #252525; }
@@ -193,7 +193,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     font-family: 'Lato', sans-serif;
 }
 .resume-section .company {
-    height: 20px;
+    height: 15px;
     font-size: 15px;
     font-weight: 700;
     margin-top: 3px;
@@ -208,7 +208,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     align-items: flex-end;
 }
 .resume-section .date-location span {
-    padding: 0px 12px 0px 5px;
+    padding: 0px 0px 0px 5px;
 }
 .resume-section .description {
     font-size: 12px;
@@ -218,7 +218,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
     height: 18px;
 }
 li {
-    padding-top: 5px;
+    padding-top: 2px;
     padding-left: 15px;
 }
 li:before {
@@ -284,31 +284,15 @@ li:before {
     font-size: 13px;
     font-weight: 700;
 }
-.top-right-ribbon {
-    position: fixed;
-    width: 200px;
-    line-height: 50px;
-    top: 25px;
-    right: -50px;
-    left: auto;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-    background-color: #339cc1;
-    box-shadow: 0 0 10px rgba(0,0,0,.3);
-    z-index: 1000;
-    text-align: center;
-}
-.top-right-ribbon a:hover, .top-right-ribbon a:active { color: inherit; }
 
 .site-wrap {
     min-height: 100%;
     margin-bottom: -26px;  /* equal to footer height */
 }
-.site-wrap:after {
+/* .site-wrap:after {
     content: "";
     display: block;
-}
+} */
 .footer, .site-wrap:after {
     height: 26px;
 }
@@ -326,4 +310,14 @@ li:before {
 }
 .footer .last-update {
     float: right;
+}
+@media print {
+    @page {size: A4 portrait; }
+
+    .resume-page {
+        margin: 0;
+        padding: 0px 30px;
+        width: 850px;
+        height: 1100px;
+    }
 }

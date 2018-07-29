@@ -38,7 +38,8 @@ education:
 experience:
   - position: R&D Technologist
     company: JDA Labs
-    date: May 2018 - Aug 2018
+    date: 
+      - May 2018 - Aug 2018
     location: Montreal, Canada
     description:
       - Ownership of a Blockchain POC for the supply chain using Hyperledger Fabric and Docker
@@ -47,7 +48,8 @@ experience:
 
   - position: Software Developer
     company: JDA Software
-    date: Sept 2017 - Dec 2017
+    date: 
+      - Sept 2017 - Dec 2017
     location: Montreal, Canada
     description:
       - Developed Java(Spring) and Python(Flask) microservices running on Google AppEngine for the "JDA Luminate" SaaS project
@@ -56,105 +58,64 @@ experience:
 
   - position: Online Developer
     company: Ubisoft - Rendez-Vous
-    date: Jan 2017 - April 2017
+    date: 
+      - Jan 2017 - Apr 2017
+      - May 2016 - Aug 2016
     location: Montreal, Canada
     description:
+      - Development of RESTful web services using Python, Django, MySQLand MongoDB
+      - Developed multiple Python packages for the Ubisoft ecosystem
       - Development of an E2E test framework using Robot Framework
-      - Continued development of the Python CLI used by the E2E test framework to interact
-        with the monolith web service
-      - Developed a web app using AngularJS for better visualization of test results and
+      - Development of a Python CLI used by the E2E test framework to automate calls to a monolithic web service
+      - Developed a web application using AngularJS for better visualization of test results and
         easier test launching
 
-  - position: Online Developer
-    company: Ubisoft - Rendez-Vous
-    date: May 2016 - Aug 2016
-    location: Montreal, Canada
-    description:
-      - Development of RESTful web services using Python, Django, MySQL, MongoDB
-      - Development of a Python CLI to automate calls to a monolith web service
-      - Developed multiple Python packages for the Ubisoft ecysystem
-
 projects:
-  - name: Microgame (in progress)
+  - name: Project Classic (Vanilla Codex)
     description:
-      - Development of a simple game with a micro-services architecture
-      - Development of a RESTful API using Golang
-      - Use of Docker containers to simplify a future migration
-        into Kubernetes
-      - Use of a containerized PostgreSQL database
-      - Heavy use of makefiles in order to simplify deployments
+      - Development of a web based leveling guide for World of Warcraft using a microservice architecture
+      - Developed microservices using Golang, GRPC and Docker
+      - Planned deployment to a Kubernetes cluster
 
-  - name: Mission Impossible
+  - name: Black Desert Online Bot
     description:
-      - Development of a RESTful API with Java Servlets
-      - Communication between multiple Raspberry Pi using WebSockets and
-        HTTP calls over a LAN
-      - Development of GPIO libraries to connect lasers and photoresistors
-        to the Raspberry Pi
-      - Use of Agile Scrum methodology
+      - Developed a Python bot to automate AFKable tasks
+      - Image recognition done using OpenCV
 
-  - name: Pac-Man Remastered
+  - name: School Projects
     description:
-      - Project manager for a 9 person team
-      - Development of a Pac-Man game from scratch using C++ and Qt
-      - Integration of voice generated signals into game controls
-      - PCB design
-      - Use of Agile Kanban methodology
-
-  - name: Robot-Jouet Contest
-    description:
-      - Project manager for an 8 person team
-      - Worked with RFID technology
-      - Arduino programming
-      - C programming for the robot
-      - Use of Agile Kanban methodology
+      - Development of a RESTful NodeJS web service using MongoDB, Express and React for a home security software
+      - Development of a time restricted image recognition algorithm in C++
+      - Development of a RESTful API with Java Servlets for the Mission Impossible game
+      - Development of GPIO, WebSocket and RFID libraries for IoT devices (Raspberry Pi, Arduino, LPC1768)
+      - Development of a Pac-Man game using C++ and Qt
 
 skills:
-  -
-    - title: Back End
-      tags:
-        - Python
-        - Java
-        - Golang
-        - C++
-
-    - title: Front End
-      tags:
-        - HTML
-        - CSS3
-        - JavaScript
-        - AngularJS
-        - jQuery
-
-  -
-    - title: DevOps
-      tags:
-        - Docker
-        - Kubernetes
-        - Robot Framework
-        - End to End Tests
-
-    - title: Databases
-      tags:
-        - SQL
-        - MongoDB
-        - Redis
-
-  -
-    - title: OS
-      tags:
-        - Windows
-        - OS X
-        - Linux
-
-    - title: Other
-      tags:
-        - Git
-        - SVN
-        - TDD
-        - JIRA
-        - JSON
-        - YAML
+  languages:
+    - Python
+    - Golang
+    - Java
+    - NodeJS
+    - Javascript
+    - Groovy
+  technologies:
+    - Blockchain
+    - Hyperledger Fabric
+    - GCP
+    - Datastore
+    - Pubsub
+    - Docker
+    - Kubernetes
+    - SQL
+    - MongoDB
+    - Redis
+    - Angular
+    - React
+    - IoT
+    - Jenkins
+    - Robot Framework
+    - Git
+    - Jira
 
 summary:
   - I'm a fast learning tech enthusiast, passionate about computer
