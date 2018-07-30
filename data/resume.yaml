@@ -42,7 +42,7 @@ experience:
       - May 2018 - Aug 2018
     location: Montreal, Canada
     description:
-      - Ownership of a Blockchain POC for the supply chain using Hyperledger Fabric and Docker
+      - Led the development of a Blockchain POC for the supply chain using Hyperledger Fabric and Docker
       - Development of a Golang web service used to interact with the Blockchain network using the Fabric Go SDK
       - Development of the Golang chaincode used to interact with the ledger running on CouchDB containers
 
@@ -84,7 +84,7 @@ projects:
 
   - name: School Projects
     description:
-      - Development of a RESTful NodeJS web service using MongoDB, Express and React for a home security software
+      - Developed a home security software with a RESTful NodeJS web service using MondoDB, Express and React
       - Development of a time restricted image recognition algorithm in C++
       - Development of a RESTful API with Java Servlets for the Mission Impossible game
       - Development of GPIO, WebSocket and RFID libraries for IoT devices (Raspberry Pi, Arduino, LPC1768)
