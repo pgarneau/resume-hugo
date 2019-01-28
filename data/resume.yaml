@@ -43,8 +43,8 @@ experience:
     location: Montreal, Canada
     description:
       - Led the development of a Blockchain POC for the supply chain using Hyperledger Fabric and Docker
-      - Development of a Golang web service used to interact with the Blockchain network using the Fabric Go SDK
-      - Development of the Golang chaincode used to interact with the ledger running on CouchDB containers
+      - Developed a Golang web service used to interact with the Blockchain network using the Fabric Go SDK
+      - Developed the Golang chaincode used to interact with the ledger running on CouchDB containers
 
   - position: Software Developer
     company: JDA Software
@@ -63,19 +63,20 @@ experience:
       - May 2016 - Aug 2016
     location: Montreal, Canada
     description:
-      - Development of RESTful web services using Python, Django, MySQLand MongoDB
+      - Developed RESTful web services using Python, Django, MySQLand MongoDB
       - Developed multiple Python packages for the Ubisoft ecosystem
-      - Development of an E2E test framework using Robot Framework
-      - Development of a Python CLI used by the E2E test framework to automate calls to a monolithic web service
+      - Developed an E2E test framework using Robot Framework
+      - Developed a Python CLI used by the E2E test framework to automate calls to a monolithic web service
       - Developed a web application using AngularJS for better visualization of test results and
         easier test launching
 
 projects:
-  - name: Project Classic (Vanilla Codex)
+  - name: Notificus
     description:
-      - Development of a web based leveling guide for World of Warcraft using a microservice architecture
-      - Developed microservices using Golang, GRPC and Docker
-      - Planned deployment to a Kubernetes cluster
+      - Developed a notification system using multiple RESTful Java microservices
+      - Dockerized project's microservices and orchestrated them with docker-compose
+      - Created a CI/CD pipeline using Azure DevOps for our containerized microservices
+      - Integrated a PostgreSQL database to handle user data and configurations
 
   - name: Black Desert Online Bot
     description:
@@ -85,35 +86,32 @@ projects:
   - name: School Projects
     description:
       - Developed a home security software with a RESTful NodeJS web service using MondoDB, Express and React
-      - Development of a time restricted image recognition algorithm in C++
-      - Development of a RESTful API with Java Servlets for the Mission Impossible game
-      - Development of GPIO, WebSocket and RFID libraries for IoT devices (Raspberry Pi, Arduino, LPC1768)
-      - Development of a Pac-Man game using C++ and Qt
+      - Developed a time restricted image recognition algorithm in C++
+      - Developed a RESTful API with Java Servlets for the Mission Impossible game
+      - Developed GPIO, WebSocket and RFID libraries for IoT devices (Raspberry Pi, Arduino, LPC1768)
 
 skills:
   languages:
     - Python
-    - Golang
     - Java
+    - Golang
     - NodeJS
     - Javascript
     - Groovy
   technologies:
+    - REST
+    - Docker
+    - MicroServices
+    - Google Cloud
+    - Azure DevOps
     - Blockchain
     - Hyperledger Fabric
-    - GCP
-    - Datastore
-    - Pubsub
-    - Docker
-    - Kubernetes
+    - CI/CD
     - SQL
     - MongoDB
-    - Redis
     - Angular
-    - React
     - IoT
     - Jenkins
-    - Robot Framework
     - Git
     - Jira
 

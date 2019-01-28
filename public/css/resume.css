@@ -1,0 +1,323 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body { height: 100%; }
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********************************************/
+
+body {
+    background-image: url(/images/subtle_carbon_lighter.png);
+    color: #f8f8f8;
+    font-size: 18px;
+    background-color: #303030;
+    font-family: 'Open Sans', sans-serif;
+}
+::selection { background-color: #44c0fb; color: #000000; }
+::-moz-selection { background-color: #44c0fb; color:#000000; }
+em { font-style: italic; }
+a { text-decoration: none; }
+p { padding-bottom: 8px; }
+p:last-child { padding-bottom: 0; }
+a:link, a:visited { color: inherit; }
+a:hover, a:active { color: #339cc1; }
+a::selection { background-color: #44c0fb; color: #000000; }
+a::-moz-selection { background-color: #44c0fb; color:#000000; }
+.page-break { display: none; }
+.clearfix:after {
+   content: ' ';
+   display: block;
+   height: 0;
+   clear: both;
+}
+.resume {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.resume-page {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 0px rgba(0,0,0,.7);
+    box-sizing: border-box;
+    color: #303030;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 1209px;
+    margin: 18pt;
+    padding: 30px 20px;
+    position: relative;
+    width: 612pt;
+    min-width: 612pt;
+}
+.resume .first-color { color: #252525; }
+.resume .first-color-bg { background-color: #252525; }
+.resume .first-color-border { border-color: #252525; }
+.resume .second-color { color: #008ccf; }
+.resume .second-color-bg { background-color: #008ccf; }
+.resume .second-color-border { border-color: #008ccf; }
+.resume-header {
+    padding: 16px;
+    border-radius: 5px;
+}
+.resume-header-left {
+    width: 75%;
+    min-height: 150px;
+    padding-right: 15px;
+    float: left;
+}
+.resume-header-center {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+}
+.resume-header .name {
+    height: 32px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 610px;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 600;
+}
+.resume-header .title {
+    height: 25px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.resume-header-info {
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+}
+.fa {
+    width: 14px;
+    padding-right: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+.fa.fa-envelope {
+    font-size: 80%;
+}
+.resume-header-info-item-text {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.resume .two-columns {
+    display: table;
+    width: 100%;
+}
+.resume .two-columns .column {
+    display: table-cell;
+    width: 50%;
+}
+.resume-body {
+    padding-top: 0px;
+}
+.resume-section {
+    padding-bottom: 12px;
+}
+.resume-section-title {
+    font-family: 'Lato', sans-serif;
+    height: 10px;
+    margin: 10px 15px 0;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 0px;
+    font-weight: 600;
+}
+.resume-section-item {
+    padding: 10px 15px 0;
+}
+.resume-section-item-inner {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #ccc;
+}
+.resume-section-item:last-child > .resume-section-item-inner {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.resume-section-item-details {
+    display: flex;
+    justify-content: space-between;
+}
+.resume-section .position {
+    height: 18px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+.resume-section .company {
+    height: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.resume-section .date-location {
+    font-size: 11px;
+    height: 15px;
+    padding-left: 2px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.resume-section .date-location span {
+    padding: 0px 0px 0px 5px;
+}
+.resume-section .description {
+    font-size: 12px;
+}
+.resume-section .description span {
+    margin-top: 5px;
+    height: 18px;
+}
+li {
+    padding-top: 2px;
+    padding-left: 15px;
+}
+li:before {
+    font-family: 'FontAwesome';
+    content: '\2022';
+    margin: 0 5px 0 -11px;
+    font-size: 16px;
+}
+.resume-section .language-name {
+    height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.resume-section .language-proficiency {
+    font-size: 13px;
+}
+.slider-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    margin: 0 2px;
+    display: inline-block;
+}
+
+.resume-section .language-left {
+    float: left;
+}
+.resume-section .language-right {
+    padding-top: 10px;
+    float: right;
+    vertical-align: middle;
+}
+.resume-section .tech-title {
+    height: 18px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.resume-section .tech-tags-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.resume-section .tech-tag {
+    border: 1px solid #a9a9a9;
+    padding: 5px 8px;
+    min-width: 40px;
+    margin: 5px;
+    max-width: 95%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    white-space: nowrap;
+}
+.interests .fa {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 16px;
+}
+.interests {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.site-wrap {
+    min-height: 100%;
+    margin-bottom: -26px;  /* equal to footer height */
+}
+/* .site-wrap:after {
+    content: "";
+    display: block;
+} */
+.footer, .site-wrap:after {
+    height: 26px;
+}
+.footer {
+    background-color: rgba(0,0,0,.8);
+    color: #ccc;
+    font-size: 13px;
+}
+.footer-content {
+    padding: 6px 12px 0 12px;
+}
+.footer a { text-decoration: underline; color: #339cc1; }
+.footer .source-code {
+    float: left;
+}
+.footer .last-update {
+    float: right;
+}
+@media print {
+    @page {size: A4 portrait; }
+
+    .resume-page {
+        margin: 0;
+        padding: 0px 30px;
+        width: 850px;
+        height: 1100px;
+    }
+}
